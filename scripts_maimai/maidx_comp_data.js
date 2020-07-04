@@ -613,7 +613,7 @@ const print_result = (ba, ad, ex, ma, re, name, plate, musicdata, re_musicdata, 
 /* ココからメイン */
 
 //disp_rank = window.confirm('新・CYCLES FUNの寝言\nComp Plate制覇状況解析\n\nクリア状況をランク表示にしますか？\nOK : ランク表示\nキャンセル : クリア表示');	
-disp_rank = true;
+disp_rank = false;
 const start = performance.now();
 
 if(location.href.slice(0,41) == mainet_dom+"friend/" && location.href.length > 41)
