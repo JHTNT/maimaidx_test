@@ -4,7 +4,7 @@ javascript:
 const mainet_dom = 'https://maimaidx-eng.com/maimai-mobile/';
 let dxlist=[], titlelist=[], r_dxlist=[], r_titlelist=[];
 let disp_rank = false;
-let newest_ver = 14;
+let newest_ver = 13;
 
 var comp_plate_list=[
 	"舞舞舞", "舞神", "舞将", "舞極", "覇者",
