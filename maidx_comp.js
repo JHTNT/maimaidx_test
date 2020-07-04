@@ -4,7 +4,7 @@ javascript:
 	{
 		j=['in_lv_dxplus.js',
 		   'maidx_comp_data.js'];
-		dom='jhtnt.github.io/maimaidx_test/scripts_maimai/';
+		dom='https://jhtnt.github.io/maimaidx_test/scripts_maimai/';
 		f=function(s,u)
 		{
 			if(j.length==0)
