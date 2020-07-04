@@ -17,10 +17,10 @@ var comp_plate_list=[
 	"輝舞舞", "輝神", "輝将", "輝極", "熊舞舞", "熊神", "熊将", "熊極",
 ];
 	
-const verstr_list = ['ジングル','真','超','檄','橙','暁','桃','櫻','紫','菫','白','雪','輝','熊','DX+']
+const verstr_list = ['ジングル','真','超','檄','橙','暁','桃','櫻','紫','菫','白','雪','輝','熊']
 
 
-let music_ver_count=[1, 89, 59, 53, 32, 41, 39, 39, 48, 45, 55, 55, 63, 97]; //最新は計算で
+let music_ver_count=[1, 88, 58, 50, 31, 34, 35, 35, 42, 42, 45, 47, 50, 78]; //最新は計算で
 let remas_music_count=[in_lv.filter((x)=>x.dx==0 && x.lv[4]!=0).length];	// Remas譜面数
 
 const get_page_failure = ( url )=>
