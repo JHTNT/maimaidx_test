@@ -345,11 +345,11 @@ const print_result_sub_print_header = (title) =>
 	var rslt_str ="";
 	rslt_str += "<head>\n";
 	rslt_str += "<title>" + title + " | 新・CYCLES FUNの寝言</title>\n";
-    	rslt_str += "<link rel='stylesheet' media='all' type='text/css' href='https://jhtnt.github.io/maimaidx_test/css/maidx_rating.css'>\n";
+    rslt_str += "<link rel='stylesheet' media='all' type='text/css' href='https://jhtnt.github.io/maimaidx_test/css/maidx_rating.css'>\n";
  	rslt_str += "<link rel='stylesheet' media='all' type='text/css' href='https://jhtnt.github.io/maimaidx_test/css/display.css'>\n";
  	rslt_str += "<link rel='stylesheet' media='all' type='text/css' href='https://jhtnt.github.io/maimaidx_test/css/result.css'>\n";
  	rslt_str += '<style type="text/css"> body{background-color:#51bcf3;} th{font-size:x-small;} td{font-size:x-small;} table {border-collapse: collapse;} .minwidth400{min-width:400px;}</style>\n';
-	rslt_str += '<script src="https://jhtnt.github.io/maimaidx_test/scripts_maimai/maidx_comp_sub.js" async></script>\n';
+	rslt_str += '<script src="https://jhtnt.github.io/maimaidx_test/scripts_maimai/maidx_comp_sub.js"></script>\n';
  	rslt_str += "</head>\n";
 	
 	return rslt_str;
